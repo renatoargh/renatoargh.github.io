@@ -29,3 +29,5 @@ This post is to list all aspects a web application may have to deal with, and ho
 - **Build Process**
 - **Continous Integration**
 - **Deployment**
+- **Good practices**
+  - Shrinkwrap
