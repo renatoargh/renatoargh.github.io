@@ -14,6 +14,8 @@ This post is to list all aspects a web application may have to deal with, and ho
   - Numbers
   - Currency
   - Timezone
+- Authentication
+- Role Based Authorization
 - **Database Decision**
 - **Scalability**
 - **Database Scalability**
