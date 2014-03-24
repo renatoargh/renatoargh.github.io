@@ -3,10 +3,12 @@ layout: page
 title: About
 ---
 
-My name is Renato Gama, computer enginner from Brazil 
-working mostly with software (Node.js, MongoDb, MySql and Amazon Web Services), but planning to work with 
+<img src="https://www.gravatar.com/avatar/e5c3912f727b5788f229e2be8e8d65e2?s=128&d=identicon&r=PG" align="right" />
+
+My name is Renato Gama, computer engineer from Brazil 
+working mostly with software, using Node.js, MongoDb, MySql and Amazon Web Services, but planning to work with 
 Arduino in the near future.
 
-This is a very simple blog intended mostly to document solutions to programming problems I have been having.
+This is a very simple blog intended to document my solutions to programming problems.
 
 This blog is open for contributions so whenever you find infomation that is not accurate or can be improved in any way, please, make a fork of [renatoargh.github.io](https://github.com/renatoargh/renatoargh.github.io), then send a pull request.
