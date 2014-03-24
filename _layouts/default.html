@@ -21,8 +21,8 @@
             
             <a class="extra" href="/">Home</a>
             {% for page in site.pages %}
-            {% if blogPage.url != '/index.html' %}
-                <a class="extra" href="{{ blogPage.url }}">{{ blogPage.title }}</a></li>
+            {% if page.url != '/index.html' %}
+                <a class="extra" href="{{ page.url }}">{{ page.title }}</a></li>
             {% endif %}
             {% endfor %}
           </div>
