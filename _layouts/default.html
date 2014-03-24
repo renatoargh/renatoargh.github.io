@@ -18,7 +18,12 @@
         <div class="site">
           <div class="header">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
+            
+            {% for page in site.pages %}
+            {% if page.url != '/index.html' %}
+                <a class="extra" href="{{ page.url || replace: '/index.html', '/'}}">{{ page.title }}</a></li>
+            {% endif %}
+            {% endfor %}
           </div>
 
           {{ content }}
@@ -28,13 +33,7 @@
               <p>
                 Renato Gama<br />
                 Computer Engineer<br />
-                renatoargh@gmail.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/renatoargh">github.com/renatoargh</a><br />
-                <a href="https://twitter.com/renatoargh">twitter.com/renatoargh</a><br />
+                <a href="mailto:renatoargh@gmail.com">renatoargh@gmail.com</a>
               </p>
             </div>
           </div>
