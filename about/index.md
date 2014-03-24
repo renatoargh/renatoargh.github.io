@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<img src="https://www.gravatar.com/avatar/e5c3912f727b5788f229e2be8e8d65e2?s=128&d=identicon&r=PG" align="right" />
+<img src="https://www.gravatar.com/avatar/e5c3912f727b5788f229e2be8e8d65e2?s=128&d=identicon&r=PG" align="right" style="margin: 15px;"/>
 
 My name is Renato Gama, computer engineer from Brazil 
 working mostly with software, using Node.js, MongoDb, MySql and Amazon Web Services, but planning to work with 
