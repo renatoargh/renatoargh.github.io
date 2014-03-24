@@ -21,7 +21,7 @@
             
             {% for page in site.pages %}
             {% if page.url != '/index.html' %}
-                <a class="extra" href="{{ page.url }}">{{ page.title }}</a></li>
+                <a class="extra" href="{{ page.url || replace: '/index.html', '/'}}">{{ page.title }}</a></li>
             {% endif %}
             {% endfor %}
           </div>
