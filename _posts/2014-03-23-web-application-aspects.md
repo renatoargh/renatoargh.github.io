@@ -10,6 +10,10 @@ This post is to list all aspects a web application may have to deal with, and ho
   - Unit Testing
   - Integration Testing
 - **Internationalisation (i18n)**
+  - Date and Time
+  - Numbers
+  - Currency
+  - Timezone
 - **Database Decision**
 - **Scalability**
 - **Database Scalability**
