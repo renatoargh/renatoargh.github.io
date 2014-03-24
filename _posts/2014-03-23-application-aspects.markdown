@@ -12,3 +12,5 @@ var test = new Test();
 
 test.doAwesomeness();
 ```
+
+![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
