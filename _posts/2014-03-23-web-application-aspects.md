@@ -20,6 +20,9 @@ This post is to list all aspects a web application may have to deal with, and ho
 - **Static File Storage**
 - **Logging**
 - **Code Linting**
+- **Distributing static content**
+  - NGINX
+  - Content Delivery Networks
 - **Testing**
   - Unit Testing
   - Integration Testing
