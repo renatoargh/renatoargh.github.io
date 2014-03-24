@@ -1,3 +1,4 @@
 name: renatoargh
+timezone: America/Sao_Paulo
 markdown: redcarpet
 pygments: true
