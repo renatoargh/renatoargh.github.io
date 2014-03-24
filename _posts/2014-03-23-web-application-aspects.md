@@ -26,6 +26,8 @@ This post is to list all aspects a web application may have to deal with, and ho
 - **Front End**
   - Frameworks
 - **Documenting**
+- **Bug reporting**
+  - Using Github Issues
 - **Build Process**
 - **Continous Integration**
 - **Deployment**
