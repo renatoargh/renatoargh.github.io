@@ -22,3 +22,7 @@ This post is to list all aspects a web application may have to deal with, and ho
 - **Testing**
   - Unit Testing
   - Integration Testing
+- **Documenting**
+- **Build Process**
+- **Continous Integration**
+- **Deployment**
