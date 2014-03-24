@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-My name is Renato Gama, a computer enginner from Brazil 
+My name is Renato Gama, computer enginner from Brazil 
 working mostly with software (Node.js, MongoDb, MySql and Amazon Web Services), but planning to work with 
 Arduino in the near future.
 
