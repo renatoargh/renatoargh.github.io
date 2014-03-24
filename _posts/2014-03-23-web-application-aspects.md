@@ -22,6 +22,8 @@ This post is to list all aspects a web application may have to deal with, and ho
 - **Testing**
   - Unit Testing
   - Integration Testing
+- **Front End**
+  - Frameworks
 - **Documenting**
 - **Build Process**
 - **Continous Integration**
