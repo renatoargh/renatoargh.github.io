@@ -22,7 +22,7 @@
             <a class="extra" href="/">home</a>
             {% for page in site.pages %}
             {% if page.url != '/index.html' %}
-                <a class="extra" href="{{ page.url }}">{{ page.title }}</a></li>
+                <a class="extra" href="{{ page.url.toLowerCase() }}">{{ page.title }}</a></li>
             {% endif %}
             {% endfor %}
           </div>
