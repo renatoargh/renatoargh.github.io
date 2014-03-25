@@ -40,7 +40,7 @@ This post is to list all aspects a web application may have to deal with, and ho
 - **Good practices**
   - Shrinkwrap  
     
----
+<div style="margin-top:15px;"></div>
 
 ## Coding Standards
 
