@@ -36,3 +36,4 @@ This post is to list all aspects a web application may have to deal with, and ho
 - **Deployment**
 - **Good practices**
   - Shrinkwrap
+    *Remember to always prune before shrinkwraping!*
