@@ -41,8 +41,9 @@ This post is to list all aspects a web application may have to deal with, and ho
   - Shrinkwrap  
     *Remember to always prune before shrinkwraping!*
 
+
 ## Coding Standards
 
 In the effort to make the entire code base look like the same person has typed it we must adere to some standards, and the only way to achieve this goal is by following some conventions. The ones that I adopt in my code base are listed in [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwaldron/idiomatic.js/) which I deeply recommend you reading.
 
-Conventions that I avoid using but are recently becoming popular; are avoiding `;` at the end of lines and the [Comma First](https://gist.github.com/isaacs/357981/) pattern. 
+Conventions that I avoid using but are recently becoming popular: are avoiding `;` at the end of lines and the [Comma First](https://gist.github.com/isaacs/357981/) pattern. 
