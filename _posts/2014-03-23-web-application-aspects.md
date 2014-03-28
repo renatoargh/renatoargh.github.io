@@ -35,6 +35,10 @@ This post is to catalog how I have been tackling some aspects of my node.js proj
   - Using Github Issues
 - **Build Process**
 - **Continous Integration**
+  - Testing
+  - Building
+  - Releasing
+  - Running
 - **Deployment**
   - Amazon EC2
 - **Good practices**
