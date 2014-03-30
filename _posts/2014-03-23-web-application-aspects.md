@@ -30,7 +30,7 @@ This post is to catalog how I have been tackling some aspects of my node.js proj
   - Integration Testing
 - **Front End**
   - Frameworks
-- **Documenting**
+- **Documentation**
 - **Bug Reporting**
   - Using Github Issues
 - **Build Process**
