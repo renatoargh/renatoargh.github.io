@@ -50,7 +50,7 @@ In the effort to make the entire code base look like the same person has typed i
 
 Conventions that I avoid using but are recently becoming popular are: skipping `;` at the end of lines and the [Comma First](https://gist.github.com/isaacs/357981/) pattern.   
 
-You can enforce some of this conventions by running [JSHint](https://github.com/jshint/jshint/) as [test task](https://github.com/gruntjs/grunt-contrib-jshint) with [Grunt](http://gruntjs.com/). If JSHint fails I don't even run my unit tests.
+You can enforce some of this conventions by running [JSHint](https://github.com/jshint/jshint/) as a [test task](https://github.com/gruntjs/grunt-contrib-jshint) with [Grunt](http://gruntjs.com/). If JSHint fails I don't even run my unit tests.
 
 <div style="margin-top:15px;"></div>
 ## Folder Structure
