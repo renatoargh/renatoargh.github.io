@@ -57,7 +57,7 @@ You can enforce some of this conventions by running [JSHint](https://github.com/
 
 The folder structure is a very important and a basic part code organization, so having an appropriate and consistent folder structure is a key to fast development.
 
-This is the folder structure I use for my web apps.
+This folder structure I have found to be the most appropriate and I have been using for my web apps is below.
 
 ```
 |
