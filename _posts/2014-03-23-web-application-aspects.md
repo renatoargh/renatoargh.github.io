@@ -3,7 +3,7 @@ layout: post
 title: Web Application Aspects
 ---
 
-This post is to catalog how I have been tackling some aspects of my node.js web projects. Each aspect will becoma a link to an individual post about the subject.
+This post is to catalog how I have been tackling some aspects of my node.js web projects. Each aspect will become a link to an individual post about the subject.
 
 - **Introduction**
 - **Coding Standards**
@@ -94,4 +94,4 @@ The folder structure I have found to be the most appropriate and have been using
 |--- README.md
 ```
 
-I start my application with a single `app.js` file, containing initialization code for express. I usually have lots of routes so it is impossible to organize all of them in a single file, then I create the `controller` directory, and I create one individual controller for each entity in the project. Actually I separate files by entity, it means that I will have an individual model file, repository file and controller file for `Client`, also I create an folder for each entity in the project within the `views` folder, once we wil surely end up with lots of different view per entity.
+I start my application with a single `app.js` file, containing initialization code for express. I usually have lots of routes so it is impossible to organize all of them in a single file, then I create the `controller` directory, and I create one individual controller for each entity in the project. Actually I separate files by entity, it means that I will have an individual model file, repository file and controller file for `Client` (say we have this entity). Also I create a different folder for each entity in the `views` folder, as we are sure we wil surely end up with lots of different views per entity.
