@@ -3,8 +3,9 @@ layout: post
 title: Web Application Aspects
 ---
 
-This post is to catalog how I have been tackling some aspects of my node.js projects.
+This post is to catalog how I have been tackling some aspects of my node.js web projects. Each aspect will becoma a link to an individual post about the subject.
 
+- **Introduction**
 - **Coding Standards**
 - **Folder Structure**
 - **Internationalisation (i18n)**
@@ -55,9 +56,9 @@ You can enforce some of this conventions by running [JSHint](https://github.com/
 <div style="margin-top:15px;"></div>
 ## Folder Structure
 
-The folder structure is a very important and a basic part code organization, so having an appropriate and consistent folder structure is a key to fast development.
+The folder structure is a very important part of code organization, so having an appropriate and consistent folder structure is a key for fast development.
 
-This folder structure I have found to be the most appropriate and I have been using for my web apps is below.
+The folder structure I have found to be the most appropriate and have been using for my web apps is shown and explained below.
 
 ```
 |
@@ -74,15 +75,23 @@ This folder structure I have found to be the most appropriate and I have been us
 |   |--- img
 |   |--- css
 |   |--- audio
+|   |--- i18n
 |
 |--- infra
-|--- locales
+|--- i18n
+|   |
+|   |--- en.json
+|   |--- es.json
+|   |--- pt.json
+|
 |--- utils
 |--- tests
 |
 |--- app.js //application start point
-|--- env.json //environment specific configurations
+|--- env.json //environment specific configurations (not versioned)
 |--- Gruntfile.js
 |--- package.json
 |--- README.md
 ```
+
+I start my application with a single `app.js` file, containing initialization code for express. I usually have lots of routes so it is impossible to organize all of them in a single file, then I create the `controller` directory, and I create one individual controller for each entity in the project. Actually I separate files by entity, it means that I will have an individual model file, repository file and controller file for `Client`, also I create an folder for each entity in the project within the `views` folder, once we wil surely end up with lots of different view per entity.
