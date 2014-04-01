@@ -75,7 +75,11 @@ The folder structure I have found to be the most appropriate and have been using
 |   |--- img
 |   |--- css
 |   |--- audio
-|   |--- i18n
+|   |--- i18n //may look redudant having two folder for i18n, but it will be explained
+|   |   |
+|   |   |--- en.json
+|   |   |--- es.json
+|   |   |--- pt.json
 |
 |--- infra
 |--- i18n
