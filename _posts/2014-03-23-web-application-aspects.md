@@ -16,7 +16,7 @@ This post is to catalog how I have been tackling some aspects of my node.js proj
 - **Role Based Authorization**
 - **Database Decision**
 - **Scalability**
-- **Database Scalability**
+  - Database Scalability
 - **Static File Storage**
   - Amazon S3
 - **Logging**
@@ -34,10 +34,10 @@ This post is to catalog how I have been tackling some aspects of my node.js proj
   - Using Github Issues
 - **Build Process**
 - **Continous Integration**
-  - Testing
-  - Building
-  - Releasing
-  - Running
+  - Test
+  - Build
+  - Archive Binaries
+  - Deploy
 - **Deployment**
   - Amazon EC2
 - **Good practices**
