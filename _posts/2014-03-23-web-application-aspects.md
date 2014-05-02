@@ -16,6 +16,11 @@ This post is to catalog how I have been tackling some aspects of my node.js web 
 - **Authentication**
 - **Role Based Authorization**
 - **Database Decision**
+- **Front End**
+  - Angular.js
+  - Backbone.js
+  - Ember.js
+  - EXT.js
 - **Scalability**
   - Database Scalability
 - **Static File Storage**
