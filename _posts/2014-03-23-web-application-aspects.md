@@ -33,6 +33,10 @@ This post is to catalog how I have been tackling some aspects of my node.js web 
 - **Testing**
   - Unit Testing
   - Integration Testing
+- **Attack Prevention**
+  - Rainbow Table
+  - Parameter Injection
+  - SQL Injection
 - **Front End**
   - Frameworks
 - **Documentation**
