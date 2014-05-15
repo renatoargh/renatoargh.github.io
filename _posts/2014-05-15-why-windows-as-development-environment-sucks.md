@@ -7,3 +7,4 @@ title: Why windows as development environment sucks
 2. Command prompt does not accept neither CTRL+V, CTRL+C or text selection direct.
 3. Command prompt buffer is really small so you can't review (not so) old logging messages.
 4. Very different commands from unix.
+5. Command prompt has no tabs feature.
