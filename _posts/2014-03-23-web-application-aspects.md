@@ -34,9 +34,10 @@ This post is to catalog how I have been tackling some aspects of my node.js web 
   - Unit Testing
   - Integration Testing
 - **Attack Prevention**
-  - Rainbow Table
+  - Rainbow Table (salt)
   - Parameter Injection
   - SQL Injection
+  - Replay Attacks (nonce)
 - **Front End**
   - Frameworks
 - **Documentation**
